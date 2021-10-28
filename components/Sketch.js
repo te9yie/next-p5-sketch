@@ -10,7 +10,7 @@ const Sketch = (props) => {
       setSketch(await import(`../sketch/${props.name}`));
     };
     importSketch();
-  });
+  }, []);
   return sketch ? <Canvas sketch={sketch.default} /> : null;
 };
 
