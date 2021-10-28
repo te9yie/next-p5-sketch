@@ -1,0 +1,4 @@
+/.devcontainer/
+/.next/
+/node_modules/
+/out/
